@@ -1,0 +1,2 @@
+defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock # makes hovering over the hidden dock instant
+hidutil property --set '{"CapsLockDelayOverride":0}' # removes Apple's feature that makes short caps-lock presses not register 
